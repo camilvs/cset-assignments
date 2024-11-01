@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 3</title>
+    <style>
+        /* em,strong{
+            background-color: #b2d6ff;
+            display: block;
+        } */
+        h1{
+            background-color: lightgrey;
+            border: 2px solid rgb(163, 150, 133);
+        }
+        span{
+            color: brown;
+            border: 2px solid ;
+        }
+        .p1{
+            background-color: lightgrey;
+            display: block;
+
+        }
+        .p2{
+            background-color: lightblue;
+        }
+        .nav {
+            background-color: rgb(240, 240, 172); 
+            list-style-type: none; /* removes bullet point */
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav li {
+            display: inline-block; /* makes list appear horizontally*/
+            font-size: 20px;
+            padding: 20px;
+        }
+        /* .dropdown{
+            display: inline-block;
+        } */
+/* css for float thingy */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .menu{
+            height: 100px;
+            background-color: #b2d6ff;
+        }
+        .sidebar{
+            float: left;
+            width: 200px;
+            height: 300px;
+            background-color: #f09a9d;
+        }
+        .content{
+            float: left;
+            width: 650px;
+            height: 500px;
+            background-color: #f5cf8e;
+        }
+        .footer{
+            overflow: hidden;
+            background-color: #d6e9fe;
+        }
+        .page{
+            width: 900px;
+            margin: 0 auto;
+            overflow: hidden;
+            background-color: #eaedf0;
+        }
+        .fullpage{
+            background-color: #eaedf0;
+        }
+        .column{
+            float: left;
+            width: 31%;
+            margin: 20px 1.15%;
+            height: 160px;
+            background-color: #b2d6ff;
+        }
+        .avatar{
+            float: left;
+            width: 60px;
+            height: 60px;
+            margin: 25px;
+            border-radius: 40px;
+            background-color: #d6e9fe;
+            
+        }
+        .username{
+            margin-top: 30px;
+        }
+        .comment{
+            margin: 10px;
+            overflow: hidden;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Headings Are Block Elements</h1>
+    <div class="p1"><p>paragrapjs are blocks too.</div>
+    <div class="p2"><em>However</em></div>
+    <div class="p1">, em and strong elements are not. they are</div>
+    <div class="p2"><strong>inline</strong></div>
+    <div class="p1">elements.</p></div><br>
+    <div class="p1">block elements define the flow of the HTML document, while inline elements do not</div>
+<br>
+<br>
+<br>
+<!-- nav bar -->
+ <h3>Nav bar</h3>
+ <ul class="nav">
+    <li><a href="#home">home</a></li>
+    <li><a href="#about">about us</a></li>
+    <li><a href="#clients">our clients</a></li>
+    <li><a href="#contact">contact us</a></li>
+ </ul>
+ <br><br><Br>
+    <!-- drop down bar -->
+     <!-- <div class="dropdown">
+        <button class="dropcontent">dropdown</button>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+     </div> -->
+<br><br><br>
+        <div class="menu">Menu</div>
+     <div class="fullpage">
+    <div class="page">
+        <div class="sidebar">Sidebar</div>
+        <div class="content">Content</div>
+     </div>
+    </div>
+     <div class="footer">
+        <div class="column">
+            <div><img src="littleme.JPG"class="avatar"></div>
+            <h3 class="username">Bob smith</h3>
+            <p class="comment">lroem engoenb envinebne jbv ejk bekj vle 
+                gioengpi dnghisnoihn jdngoiknsr ksngoisnb sjngoiksnikpiois ninrgoins
+            bnoginrtoijginrn bnikf ndjr vrl rgrdysd vrtdibbulikm sliwuim </p>
+        </div>
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column"></div>
+     </div>
+</body>
+</html>

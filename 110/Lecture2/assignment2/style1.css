@@ -1,0 +1,24 @@
+
+/* Style the navigation menu container */
+body {
+    background-color: black;
+    text-align: center; 
+}
+
+
+/* Style the list items */
+body ul li {
+    display: inline; /* Display list items inline */
+}
+
+/* Style the links */
+body ul li a {
+    display: inline-block;
+    color: white; 
+    padding: 15px 20px; 
+}
+
+/* Hover effect */
+body ul li a:hover {
+    background-color: gray; /* Background color on hover */
+}

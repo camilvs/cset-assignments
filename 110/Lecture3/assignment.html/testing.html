@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cami's Matcha</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #588157;
+            color: #333;
+        }
+
+        header {
+            background: #3A5A40;
+            color: #DAD7CD;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #DAD7CD;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 2rem;
+            margin: 1rem 0;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            background: #A3B18A;
+        }
+
+        h2 {
+            color: #3A5A40;
+        }
+
+        h3{
+            color: #16241d;
+        }
+
+        #home p{
+            columns: 2;
+        }
+
+        #about p{
+            columns: 2;
+        }
+
+        #menu, #recipes {
+            display: grid;
+            gap: 10px;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            /* padding: 20px; */
+            
+        }
+
+        .menuitems, .recipeitems{
+            background-color: #588157;
+            padding: 10px;
+            border: #333 solid;
+            text-align: center;
+            /* box-shadow: 0 0 4px black; */
+            max-width: 200px;
+        }
+
+        .icon{
+            font-size: 50px;
+        }
+        .menuitems p, .recipeitems p{
+            color: #1b3227;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        button{
+            background-color: #426342; 
+            color: #DAD7CD; 
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px; 
+            font-size: 14px; 
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: #344E41;
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            background: #344E41;
+            color: #DAD7CD;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: auto;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Cami's Matcha</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Matcha</a></li>
+                <li><a href="#menu">Matcha Menu</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Cami's Matchas</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+    </section>
+
+    <section id="about">
+        <h2>About Matcha</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+    </section>
+
+    <section id="menu">
+        <h2>Our Matcha Menu</h2>
+        
+            <div class="menuitems">
+                <span class="icon">🍵</span>
+                <h3>Matcha Latte</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>$4.00</p>
+            </div>
+            
+            <div class="menuitems">
+                <span class="icon">🥤</span>
+                <h3>Matcha Smoothie</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>$5.00</p>
+            </div>
+
+            <div class="menuitems">
+                <span class="icon">🫖</span>
+                <h3>Traditional Matcha Tea</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>$3.00</p>
+            </div>
+
+            <div class="menuitems">
+                <span class="icon">🍰</span>
+                <h3>Matcha Cheesecake</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>$6.00</p>
+            </div>
+    </section>
+
+    <section id="recipes">
+        <h2>Matcha Recipes</h2>
+            <div class="recipeitems">
+                <h3>Matcha Smoothie</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+                <button>Learn More →</button>
+            </div>
+            
+            <div class="recipeitems">
+                <h3>Matcha Cookies</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+                <button>Learn More →</button>
+            </div>
+
+            <div class="recipeitems">
+                <h3>Matcha Biscuits</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+                <button>Learn More →</button>
+            </div>
+
+            <div class="recipeitems">
+                <h3>Matcha Chocolates</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+                <button>Learn More →</button>
+            </div>
+            
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: Cami@matcha.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cami's Matcha. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

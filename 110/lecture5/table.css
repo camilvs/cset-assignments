@@ -1,0 +1,131 @@
+table, th, td {
+    border: 1px solid black;
+}
+table{
+    width: 50%; 
+    /*table fill screen*/
+    border-collapse: collapse; /*removes a line */
+}
+th, td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover{ background-color: gray;}
+tr:nth-child(even){
+    background-color: rgb(196, 228, 255);
+}
+
+.div1{
+    border: 1px solid red;
+    width: 50%;
+    height: 100px;
+    /* background-color: aliceblue; */
+    background-image: linear-gradient(red, yellow);
+    /* background-image: linear-gradient(to right, red, yellow); */
+    /* background-image: linear-gradient(to bottom right, red, yellow); */
+
+}
+.div1:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+a:link{
+    color: #ff0000;
+}
+
+a:visited{
+    color: #00ff00;
+}
+
+a:hover{
+    color: #ff00ff;
+}
+
+a:active{
+    color: #0000ff;
+}
+
+p{
+    display: none;
+}
+div:hover +p{
+    display: block;
+}
+
+.effect1{
+    text-shadow: 2px 2px  red;
+}
+/* shadow effect */
+.effect2{
+    text-shadow: 2px 2px 5px red;
+}
+/* blur effect */
+.effect3{
+    text-shadow: 0 0 3px #ff0000;
+}
+/* neon glow */
+.effect4{
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+
+div{
+    box-shadow: 10px 10px;
+}
+/* same with blur */
+div{
+    box-shadow: 10px 10px 5px grey;
+}
+
+/* more than one shadow to texxt */
+
+/*  gradientss****
+
+#grad{
+    background-image: linear-gradient(red, yellow);
+}
+#grad{
+    background-image: linear-gradient(to right, red, yellow);
+}
+#grad{
+    background-image: linear-gradient(to bottom right, red, yellow);
+} */
+/* tr:nth-child(even){background-color: #f2f2f2;}  */
+/* zebra-striped tables*/
+
+/*
+:hover and :nth-child are psuedo classes
+a psuedo-class is used to define a special state of an element
+
+ex. it can be used to 
+-style element when user mouse over it
+-style visited and unvisited links differntly
+-styl elemenet when it gets in focus
+*/
+/* the syntax or the structure
+selector:pseudo-class{
+    property:value;
+}
+*/
+
+/* unvisted link****
+a:link{
+    color: #ff0000;
+}
+
+visited link****
+a:visited{
+    color: #00ff00;
+}
+
+mouse over link****
+a:hover{
+    color: #ff00ff;
+} (must come after a:link and a:visited to work)
+            -> because pseudo-class names aren't case sensitive.
+a:active{/
+    color: #0000ff;
+} (must come after a:hover to work)
+*/

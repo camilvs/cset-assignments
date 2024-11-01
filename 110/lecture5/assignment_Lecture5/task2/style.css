@@ -1,0 +1,31 @@
+body{
+    background-color: #4A4E69;
+}
+.heading{
+    color: #C9ADA7;
+    background-color: #22223B;
+    padding: 5px;
+    text-align: center;
+    margin: 0px;
+}
+.imagefloat{
+    float: right;
+    margin: 0 20px 20px 0;
+}
+
+.imagefloat img{
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
+    padding: auto;
+}
+
+.paragraph {
+    padding: 20px; 
+    font-size: large;
+
+   
+}
+.clearfix{
+    overflow: auto;
+}
