@@ -1,3 +1,4 @@
 # cset-assignments
 cset assignments semester 1
-the developr branch
+the developer branch
+There is a branch for Kylee
